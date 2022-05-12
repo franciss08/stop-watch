@@ -1,0 +1,53 @@
+body {
+    background-color: bisque;
+    font-family: monospace;
+    text-align: center;    
+}
+
+h1 {
+    font-size: 60px;
+
+}
+
+.button-container {
+    margin: auto;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.button {
+    padding: 20px 60px;
+    margin: 5px;
+    border: solid black 2px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #ffd8ab;
+    font-weight: 700;
+}
+
+.button:active {
+    background-color: #ebe2d8;
+}
+
+#timer-container {
+    margin:20px auto 20px;
+    width: 50%;
+    background-color: #ebe2d8;
+    border: black solid 4px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+#timer {
+    font-size: 80px;
+}
+
+#tenths {
+    font-size: 60px;
+}
