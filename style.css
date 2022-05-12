@@ -11,17 +11,21 @@ h1 {
 
 .button-container {
     margin: auto;
-    width: 60%;
+    width: 350px;
     display: flex;
     justify-content: space-around;
 }
 
 .button {
-    padding: 20px 60px;
+    padding: 20px 0px;
     margin: 5px;
     border: solid black 2px;
     border-radius: 8px;
     cursor: pointer;
+    width: 100px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    font-size: 20px;
 }
 
 .button:hover {
@@ -35,7 +39,7 @@ h1 {
 
 #timer-container {
     margin:20px auto 20px;
-    width: 50%;
+    width: 300px;
     background-color: #ebe2d8;
     border: black solid 4px;
     border-radius: 5px;
@@ -45,9 +49,9 @@ h1 {
 }
 
 #timer {
-    font-size: 80px;
+    font-size: 60px;
 }
 
 #tenths {
-    font-size: 60px;
+    font-size: 40px;
 }
